@@ -1,6 +1,6 @@
 angka = int(input(""))
 
-if (0>angka<10):
+if (angka>0) and (angka<10):
     print("Satuan")
 
 elif (angka>99):
